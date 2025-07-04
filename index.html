@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charity Water - Join the Changemakers</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
-
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
-
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <div class="container">
+    <div class="text-content">
+      <div class="logo">
+        <!-- Use the local cw_logo image from the img folder -->
+        <img src="img/water-can-transparent.png" alt="charity: water logo" />
+        <span><strong>charity: water</strong></span>
+      </div>
+      <h1>Join the next generation of changemakers tackling the global water crisis.</h1>
+      <p class="subtitle">charity: water sends 100% of your donation to people in need—and shows you the impact every step of the way.</p>
+      <div class="cta">
+        <span>Give today. See the change tomorrow.</span>
+        <button>DONATE</button>
+      </div>
+      <!-- Newsletter signup section moved here, below the donation button -->
+      <div class="newsletter">
+        <!-- Heading for the newsletter section -->
+        <h2>Join our Newsletter</h2>
+        <p>Enter your email to get updates from charity: water.</p>
+        <!-- Simple form for email input -->
+        <form>
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="image-section">
+      <!-- Use the local PNG image from the img folder -->
+      <img src="img/image.png" alt="Child playing with water" />
+    </div>
+  </div>
+  <!-- Add a section at the bottom to show impact numbers -->
+  <div class="impact">
+    <!-- Show the number of people served and countries -->
+    <p>
+      <strong>20,297,336</strong> people served in <strong>29</strong> different countries
+    </p>
+  </div>
 </body>
 </html>
